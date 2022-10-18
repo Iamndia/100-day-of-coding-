@@ -1,0 +1,26 @@
+"""Membuat 2 data diri dengan tipe data yang berbeda"""
+data_diri_list = ["Nadia",18,1.48,False]
+print(20*"+","01 Tipe data list",20*"+")
+print("")
+print("+++++Biodata+++++")
+print(" Nama = ",data_diri_list[0])
+print(" Umur = ",data_diri_list[1])
+print(" Tinggi = ",data_diri_list[2])
+print(" Status pernikahan = ",data_diri_list[3],",alias belum menikah.")
+print(5*"+","tipe data",5*"+")
+print("Jenis tipe data = ",type(data_diri_list))
+print('')
+print(20*"+","02 Tipe data Tuple",20*"+")
+print("")
+print("+++++Biodata+++++")
+data_diri_tuple = ("Nadia","D0222022",18,1.48,False)
+print("Nama = ",data_diri_tuple[0])
+print("Nim = ",data_diri_tuple[1])
+print("Umur = ",data_diri_tuple[2])
+print("Tinggi = ",data_diri_tuple[3])
+print("Status pernikahan = ",data_diri_tuple[4],",alias belum menikah")
+print("+++++tipe data+++++")
+print("Jenis tipe data = ",type(data_diri_tuple))
+print("")
+
+
